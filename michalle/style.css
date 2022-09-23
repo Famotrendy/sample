@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+nav{
+    box-sizing: border-box ;
+    padding: 0;
+    margin: 20px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media screen and (max-width: 768px) {
+    .menu{
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      padding: 1.5rem 0 1rem;
+      text-align: center;
+      background-color: rgb(192, 192, 226);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav{
+      padding: 0;
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    *{
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+body{
+    background-color: rgb(192, 192, 226);
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    
+    
+}
+
+.buy_btn{
+    float: right;
+    padding: 15px;
+    max-width: 150px;
+    height: auto;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    background-color: rgb(252, 0, 42);
+    color: #fff;
+    border: 0px;
+    transition: width 2s ;
+    cursor: pointer;
+}
+
+.cv_btn{
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    background-color: rgb(252, 0, 42);
+    color: #fff;
+    border: 0px;
+    margin-top: 35px;
+}
+
+
+ul,li,a{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 18px;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+ul,li,a:hover{
+    color: rgb(252, 0, 42);
+    transition: color 0.3s ease-in-out;
+    
+}
+
+.intro{
+
+  padding: 50px 35px;
+  top: 60%;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.intro_text{
+  margin-bottom: -40px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .intro{
+      display: block;
+
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .intro_text{
+      
+    }
+  }
+  @media screen and (max-width: 200px) {
+    .image{
+      align-items: center;
+      justify-content: center ;
+     position: absolute;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .name{
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .logo{
+       float: left;
+       padding: 0;
+        margin: 0;
+        position: relative ;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .description{
+       font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    h4{
+       font-size: 12px;
+    }
+  }
+  
+  
+
